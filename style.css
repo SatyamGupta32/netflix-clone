@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+:root {
+    --color-white: hsl(0, 0%, 95%);
+    --color-black: hsl(0, 0%, 10%);
+    --color-bg: hsl(0, 0%, 75%);
+    --color-accordion-bg: hsl(0, 0%, 85%);
+    --color-accordion--tab-hover-bg: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .main {
+        height: 100vh;
+    }
+}
+
+.main .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 63vw;
+    margin: auto;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.nav .logo-image {
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav .japanese {
+    width: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav button {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.main .hero {
+    height: calc(100% - 50px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.hero .p-1 {
+    font-size: 48px;
+    line-height: 80px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero .p-2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.hero .p-3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.seperation {
+    width: 100vw;
+    background-color: rgba(65, 62, 62, 0.678);
+    height: 3px;
+}
+
+.button {
+    height: 33px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.nav .button-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.btn-1-lang {
+    width: 110px;
+    position: relative;
+    left: 115px;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.btn-1-lang .japanese {
+    width: 10px;
+}
+
+.btn-1-lang select {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.btn-1-lang select option {
+    border: none;
+    color: black;
+}
+
+.btn-1-sn {
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 82px;
+}
+
+.btn-2-gs {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 27px 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 350px;
+    font-weight: 200;
+    color: white;
+    padding-left: 15px;
+    border-color: rgba(255, 255, 255, 0.37);
+    border-radius: 5px;
+}
+
+
+
+
+
+.main ::placeholder {
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 15px;
+    font-weight: 500;
+    border-color: white;
+}
+
+
+
+
+.section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 0 10px;
+    padding: 60px 0;
+}
+
+.first .first-left {
+    width: 550px;
+}
+
+.first .first-left .p-4 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.first .first-left .p-5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.first .first-right {
+    position: relative;
+    top: 20px;
+}
+
+.first-right .video-1 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 265px;
+}
+
+
+
+.second {
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.section .second-right {
+    width: 550px;
+}
+
+.section .second-right .p-4 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.section .second-right .p-5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.third {
+    padding: 60px 100px;
+}
+
+.third .third-left {
+    width: 500px;
+}
+
+.third .third-left .p-6 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.third .third-left .p-7 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.third .third-right {
+    position: relative;
+    top: 20px;
+}
+
+.third-right .video-2 {
+    position: absolute;
+    z-index: -3;
+    right: 0;
+    bottom: 0;
+    height: 310px;
+    width: 350px;
+}
+.tv-2{
+    width: 400px;
+}
+.FAQ {
+    margin: 30px 0;
+}
+
+.tab input:checked~.tab-content {
+    max-height: 300px;
+    margin-bottom: 20px;
+    /* Add margin to increase the gap */
+    transition: max-height 0.5s ease-in, margin 0.5s ease-in;
+    /* Include margin in the transition */
+}
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tab-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in;
+}
+
+/* visual style */
+.accordion {
+    width: 50vw;
+    margin: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.tab-wrapper {
+    width: 50vw;
+    height: 5vh;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    font-size: 15px;
+    transition: background-color 0.25s ease-in;
+    background-color: rgba(230, 210, 210, 0.274);
+}
+
+.tab label {
+    width: 100%;
+    padding: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.tab label::after {
+    content: "\002B";
+    width: 1em;
+    height: auto;
+    text-align: center;
+    transition: transform 0.2s;
+    transform-origin: center center;
+}
+
+.tab input:checked+label::after {
+    transform: rotate(360deg);
+}
+
+.tab input:checked+.tab-wrapper {
+    transition: transform 0.2s;
+}
+
+.gs {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.gs .hero .p-3 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    /* word-spacing: 3px; */
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.gs input {
+    margin: 30px 0 100px 0;
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 12px 0;
+    font-size: 15px;
+    width: 300px;
+    font-weight: 200;
+    color: white;
+    padding-left: 15px;
+    border-color: rgba(255, 255, 255, 0.37);
+    border-radius: 5px;
+}
+
+.gs ::placeholder {
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 15px;
+    font-weight: 500;
+    border-color: white;
+}
+
+.btn-2-gs-2 {
+    margin: 30px 0 100px 0;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 23px 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 80vw; */
+    margin-left: 21vw;
+}
+
+
+.footer .call {
+    margin-bottom: 22px;
+}
+
+.footer .content {
+    /* width: 80vw; */
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .upper-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .lower-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .ul {
+    list-style-type: none;
+    margin: 30px 150px 30px 0;
+    font-size: 14px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+.content .ul a {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s ease-out;
+}
+
+.content .ul a:hover {
+    color: rgba(241, 11, 11, 0.89);
+    transform: scale(2);
+}
+
+.india .btn-2-lang {
+    width: 110px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.india .btn-2-lang select {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-2-lang select option {
+    border: none;
+    color: black;
+}
+
+.india .p-8 {
+    margin-bottom: 30px;
+}

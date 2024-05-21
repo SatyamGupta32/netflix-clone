@@ -1,0 +1,593 @@
+
+@media screen and (orientation: landscape) and (max-width:1367px) {
+
+    .footer {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width:933px) {
+    .footer {
+        margin-left: 0;
+    }
+
+    .main {
+        height: 100vh;
+    }
+}
+@media screen and (max-width:1024px) {
+    .main .nav {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .second img {
+        width: 400px;
+    }
+
+    .fourth img {
+        width: 500px;
+    }
+
+    .third img {
+        width: 600px;
+    }
+
+    .third {
+        padding: 60px 20px;
+    }
+
+    .third .tv-2 {
+        width: 270px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer .call {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .footer .content {
+        padding-left: 15px;
+    }
+
+    .content .upper-content {
+        column-gap: 0px;
+    }
+
+    .content .lower-content {
+        column-gap: 0px;
+    }
+
+    .content .ul {
+        list-style-type: none;
+        font-size: 14px;
+        margin-right: 25px;
+        font-weight: lighter;
+        line-height: 20px;
+        width: 200px;
+    }
+
+    .india {
+        display: flex;
+        width: 70vw;
+        margin: 0 5vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:834px) {
+    body {
+        max-width: 770px;
+        overflow: hidden scroll;
+    }
+    .second img {
+        width: 370px;
+    }
+
+    .second {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .section .second-right {
+        width: 550px;
+    }
+
+    .section .second-right .p-4 {
+        font-size: 27px;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .section .second-right .p-5 {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .faq {
+        width: 100vw;
+    }
+
+    /* visual style */
+    .accordion {
+        width: 100vw;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .section-header {
+        font-size: 28px;
+    }
+
+    .tab-wrapper {
+        width: 75vw;
+        font-size: 11px;
+        align-items: center;
+        height: 6vh;
+        font-weight: lighter;
+    }
+
+    .tab label {
+        font-size: 15px;
+    }
+    .gs {
+        width: 100vw;
+    }
+
+    .lower-content {
+        flex-wrap: wrap;
+    }
+
+    .upper-content {
+        flex-wrap: wrap;
+    }
+
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .hero .p-1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main .hero {
+        margin-top: 30px;
+    }
+
+    .main input {
+        width: 320px;
+        height: 20px;
+        padding: 10px 0;
+        padding-left: 10px;
+    }
+    .btn-2-gs {
+        width: 50%;
+        height: 30px;
+        padding: 22px 15px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .first .first-left {
+        width: 550px;
+        text-align: center;
+    }
+
+    .first .first-left .p-4 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .first .first-left .p-5 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+
+    .first .first-right {
+        position: relative;
+        top: 20px;
+    }
+
+    .first-right .video-1 {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        height: 265px;
+    }
+    .tv-image{
+        width: 200px;
+    }
+    .video-1{
+        width: 150px;
+        top: -60px;
+        left: 20px;
+    }
+    #email {
+        width: 250px;
+        height: 15px;
+    }
+
+    .btn-2-gs {
+        width: 170px;
+        padding: 24px 35px;
+        font-size: 15px;
+    }
+
+    .hero .p-1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .first .first-left .p-4 {
+        font-size: 20px;
+    }
+    .first .first-left .p-5 {
+        font-size: 13px;
+    }
+    .nav {
+        max-width: 90vw;
+    }
+
+    .second img {
+        width: 250px;
+    }
+    .third .third-left .p-6 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .third .third-left .p-7 {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .fourth img {
+        width: 250px;
+    }
+    .section .second-right .p-4{
+        font-size: 20px;
+    }
+    .section .second-right .p-5{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:450px) {
+    body {
+        max-width: 430px;
+        overflow: hidden scroll;
+    }
+
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .third {
+        margin: 10px;
+    }
+    .main .nav {
+        align-items: center;
+        max-width: 90vw;
+        margin: auto;
+        height: 50px;
+        position: relative;
+        top: 10px;
+    }
+
+    .nav .logo-image {
+        color: red;
+        width: 80px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .nav .japanese {
+        width: 15px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .btn-1-lang {
+        width: 100px;
+        left: 100px;
+    }
+
+    #lang {
+        width: 60px;
+        font-size: 10px;
+    }
+
+    .nav button {
+        position: relative;
+        z-index: 2;
+    }
+
+    .btn-1-sn {
+        width: 52px;
+        font-size: 10px;
+        height: 20px;
+    }
+    .hero .p-1 {
+        font-size: 28px;
+        line-height: 30px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .hero .p-2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .hero .p-3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .main .box {
+        height: 100vh;
+    }
+
+    .hero .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main input {
+        background-color: rgba(23, 23, 23, 0.7);
+        padding: 15px 0;
+        font-size: 15px;
+        width: 280px;
+        margin: auto;
+        font-weight: 200;
+        color: white;
+        padding-left: 15px;
+        border-color: rgba(255, 255, 255, 0.37);
+        border-radius: 5px;
+    }
+
+    .main ::placeholder {
+        color: rgba(255, 255, 255, 0.507);
+        font-size: 15px;
+        font-weight: 500;
+        border-color: white;
+    }
+
+    .btn-2-gs {
+        width: 60%;
+        font-weight: 500;
+        padding: 25px 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px auto;
+        font-family: "Roboto", sans-serif;
+    }
+    .first .first-left {
+        width: 550px;
+        text-align: center;
+    }
+
+    .first .first-left .p-4 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .first .first-left .p-5 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+
+    .first .first-right {
+        position: relative;
+        top: 20px;
+    }
+
+    .first-right .video-1 {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        height: 265px;
+    }
+    .second img {
+        width: 400px;
+    }
+
+    .second {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .section .second-right {
+        width: 550px;
+    }
+
+    .section .second-right .p-4 {
+        font-size: 28px;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .section .second-right .p-5 {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .third {
+        padding: 30px 40px;
+        text-align: center;
+    }
+
+    .third .third-left .p-6 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .third .third-left .p-7 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .third-right .tv-2 {
+        width: 300px;
+    }
+
+    .third-right .video-2 {
+        width: 260px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        height: 210px;
+    }
+    .fourth img {
+        width: 300px;
+    }
+    .fourth img {
+        width: 350px;
+    }
+    
+    /* visual style */
+    .accordion {
+        width: 90vw;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .section-header {
+        font-size: 28px;
+    }
+
+    .tab-wrapper {
+        width: 80vw;
+        font-size: 11px;
+        align-items: center;
+        height: 6vh;
+        font-weight: lighter;
+    }
+
+    .tab label {
+        font-size: 15px;
+    }
+    .gs .hero .p-3 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 90%;
+        color: white;
+        text-align: center;
+    }
+
+    .gs input {
+        margin: 10px 0 10px 0;
+        background-color: rgba(23, 23, 23, 0.7);
+        padding: 12px 0;
+        font-size: 15px;
+        width: 280px;
+        font-weight: 200;
+        color: white;
+        padding-left: 15px;
+        border-color: rgba(255, 255, 255, 0.37);
+        border-radius: 5px;
+    }
+    .btn-2-gs-2 {
+        margin: 10px 0 20px 0;
+        width: 40%;
+        font-weight: 500;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+    }
+    .nav {
+        max-width: 90vw;
+    }
+
+    .second img {
+        width: 250px;
+    }
+
+    .fourth img {
+        width: 350px;
+    }
+}
+@media screen and (max-width:431px) {
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer .call {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .footer .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .content .ul {
+        font-size: 12px;
+        word-spacing: 0;
+    }
+
+    .content .upper-content .ul {
+        margin-right: 0;
+        width: 200px;
+    }
+
+    .content .upper-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+    }
+
+    .content .lower-content {
+        width: 100%;
+    }
+
+    .india {
+        display: flex;
+        width: 70vw;
+        margin: 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (orientation: landscape) {
+
+    .content .ul {
+        width: 150px;
+    }
+
+    .third {
+        padding: 50px 20px;
+    }
+}
+@media screen and (max-width:345px) {
+    .main .nav {
+        max-width: 97vw;
+    }
+}
