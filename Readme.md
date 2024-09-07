@@ -3,8 +3,6 @@
 ## Introduction
 In this project, we'll create a basic clone of Netflix using HTML and CSS. While this won't replicate all the functionality of Netflix, it will focus on mimicking the layout and visual design of the homepage.
 
-### You can checkout this website here : https://netflix-responsive-c-git-a14367-satyam-guptas-projects-e0be53ad.vercel.app/
-
 ## Steps
 
 ### 1. Setup
